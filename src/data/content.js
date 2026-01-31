@@ -10,9 +10,9 @@ export const content = {
     image: profileImg,
   },
   social: {
-    github: "https://github.com/",
-    linkedin: "https://www.linkedin.com/",
-    email: "mailto:kevin@example.com",
+    github: "https://github.com/kevin-01-aa", // Assuming github from repo URL
+    linkedin: "https://www.linkedin.com/in/kevin-johnson-47b207263",
+    email: "mailto:arockevin@gmail.com",
   },
   education: [
     {
