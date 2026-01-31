@@ -1,0 +1,42 @@
+.footer {
+    padding: 50px 20px;
+    text-align: center;
+    background: var(--bg-color);
+}
+
+.footer-content h3 {
+    font-size: 2rem;
+    color: var(--primary-color);
+}
+
+.footer-content p {
+    color: var(--secondary-color);
+    margin-bottom: 30px;
+    max-width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.social-links {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin-bottom: 30px;
+}
+
+.social-links a {
+    font-size: 1.5rem;
+    color: var(--text-color);
+    transition: var(--transition);
+}
+
+.social-links a:hover {
+    color: var(--primary-color);
+    transform: translateY(-3px);
+}
+
+.copyright {
+    font-family: monospace;
+    font-size: 0.9rem;
+    color: var(--secondary-color);
+}

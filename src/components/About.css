@@ -1,0 +1,71 @@
+.about-section h3 {
+    font-size: 2rem;
+    margin-bottom: 50px;
+    display: flex;
+    align-items: center;
+    color: var(--text-color);
+}
+
+.about-section h3::after {
+    content: "";
+    display: block;
+    width: 300px;
+    height: 1px;
+    background: var(--secondary-color);
+    margin-left: 20px;
+    opacity: 0.5;
+}
+
+.education-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 30px;
+}
+
+.edu-card {
+    background: var(--card-bg);
+    padding: 30px;
+    border-radius: 8px;
+    border: 1px solid var(--glass-border);
+    transition: var(--transition);
+    position: relative;
+    overflow: hidden;
+}
+
+.edu-card:hover {
+    transform: translateY(-5px);
+    border-color: var(--primary-color);
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+}
+
+.edu-icon {
+    font-size: 2rem;
+    color: var(--primary-color);
+    margin-bottom: 20px;
+}
+
+.edu-content h4 {
+    font-size: 1.2rem;
+    margin-bottom: 5px;
+    color: var(--text-color);
+}
+
+.school {
+    display: block;
+    color: var(--primary-color);
+    font-weight: 600;
+    font-size: 0.9rem;
+    margin-bottom: 5px;
+}
+
+.year {
+    display: block;
+    font-size: 0.85rem;
+    color: var(--secondary-color);
+    margin-bottom: 15px;
+}
+
+.edu-content p {
+    font-size: 0.95rem;
+    color: var(--text-color);
+}
