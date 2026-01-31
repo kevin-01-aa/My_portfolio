@@ -1,5 +1,5 @@
 
-import profileImg from '../assets/profile.png';
+import profileImg from '../assets/profile_new.jpg';
 
 export const content = {
   hero: {
